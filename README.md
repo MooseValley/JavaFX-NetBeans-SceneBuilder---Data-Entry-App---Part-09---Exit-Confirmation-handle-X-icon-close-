@@ -1,9 +1,9 @@
 # Java, JavaFX, NetBeans, SceneBuilder - Data Entry App
-## Part 08 - Exit Confirmation, handle X icon (close)
+## Part 09 - Exit Confirmation, handle X icon (close)
 
 Here is the Java, JavaFX, NetBeans, SceneBuilder source code for
 **Part 09** of my video tutorial series:
-* YouTube: TBA
+* YouTube: https://youtu.be/ESYNMtsx1kQ
 * LBRY / Odysee: TBA
 
 Please see the description below the video for further details,
