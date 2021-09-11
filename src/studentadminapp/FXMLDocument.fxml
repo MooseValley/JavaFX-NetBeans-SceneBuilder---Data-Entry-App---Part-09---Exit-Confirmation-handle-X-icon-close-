@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="351.0" prefWidth="375.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="studentadminapp.FXMLDocumentController">
+   <children>
+      <Button fx:id="addStudentButton" layoutX="34.0" layoutY="62.0" mnemonicParsing="false" onAction="#addStudentButtonHandler" prefHeight="31.0" prefWidth="218.0" text="Add Student" />
+      <Button fx:id="displayAllStudentsButton" layoutX="34.0" layoutY="99.0" mnemonicParsing="false" onAction="#displayAllStudentsButtonHandler" prefHeight="31.0" prefWidth="218.0" text="Display All Students" />
+      <Button fx:id="addCourseButton" layoutX="34.0" layoutY="142.0" mnemonicParsing="false" onAction="#addCourseButtonHandler" prefHeight="31.0" prefWidth="218.0" text="Add Course" />
+      <Button fx:id="displayAllCoursesButton" layoutX="34.0" layoutY="179.0" mnemonicParsing="false" onAction="#displayAllCoursesButtonHandler" prefHeight="31.0" prefWidth="218.0" text="Display All Courses" />
+      <Button fx:id="exitButton" layoutX="34.0" layoutY="306.0" mnemonicParsing="false" onAction="#exitButtonHandler" text="Exit" />
+      <Label fx:id="headerLabel" layoutX="34.0" layoutY="14.0" text="Student Admin v0.09">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Button fx:id="addCourseEnrolmentsButton" layoutX="34.0" layoutY="224.0" mnemonicParsing="false" onAction="#addCourseEnrolmentsButtonHandler" prefHeight="31.0" prefWidth="218.0" text="Add Course Enrolment(s)" />
+      <Button fx:id="addTestDataButton" layoutX="278.0" layoutY="47.0" mnemonicParsing="false" onAction="#addTestDataButtonHandler" text="Test Data" />
+      <Button fx:id="displayAllCourseEnrolmentsButton" layoutX="34.0" layoutY="263.0" mnemonicParsing="false" onAction="#displayAllCourseEnrolmentsButtonHandler" text="Display All Course Enrolments" />
+   </children>
+</AnchorPane>
